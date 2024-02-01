@@ -1,4 +1,7 @@
+//get the element h1 and change its content to Hello
 document.querySelector("h1").innerHTML="Hello";
+
+//add an event listener to the button and alert Hello when clicked
 document.getElementById("btn").addEventListener("click",function(){
     alert("Hello");
 }
